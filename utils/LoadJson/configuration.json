@@ -1,0 +1,16 @@
+{
+    "admin" : {
+        "access" : "private",
+        "route" : "Admin",
+        "action" : "/",
+        "roles" : "SuperAdmin"
+    },
+    
+    "public" : {
+        "access" : "public",
+        "route" : "/",
+        "action" : "/",
+        "roles" : ""
+    }
+    
+}
